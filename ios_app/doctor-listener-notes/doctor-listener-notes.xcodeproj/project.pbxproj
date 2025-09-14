@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DFBE12702E679987009ED5AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFBE12522E679985009ED5AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBE12592E679985009ED5AD;
+			remoteInfo = "doctor-listener-notes";
+		};
+		DFBE127A2E679987009ED5AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFBE12522E679985009ED5AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBE12592E679985009ED5AD;
+			remoteInfo = "doctor-listener-notes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFBE125A2E679985009ED5AD /* doctor-listener-notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "doctor-listener-notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBE126F2E679987009ED5AD /* doctor-listener-notesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doctor-listener-notesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBE12792E679987009ED5AD /* doctor-listener-notesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "doctor-listener-notesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DFBE125C2E679985009ED5AD /* doctor-listener-notes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "doctor-listener-notes";
+			sourceTree = "<group>";
+		};
+		DFBE12722E679987009ED5AD /* doctor-listener-notesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "doctor-listener-notesTests";
+			sourceTree = "<group>";
+		};
+		DFBE127C2E679987009ED5AD /* doctor-listener-notesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "doctor-listener-notesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFBE12572E679985009ED5AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBE126C2E679987009ED5AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBE12762E679987009ED5AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFBE12512E679985009ED5AD = {
+			isa = PBXGroup;
+			children = (
+				DFBE125C2E679985009ED5AD /* doctor-listener-notes */,
+				DFBE12722E679987009ED5AD /* doctor-listener-notesTests */,
+				DFBE127C2E679987009ED5AD /* doctor-listener-notesUITests */,
+				DFBE125B2E679985009ED5AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFBE125B2E679985009ED5AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFBE125A2E679985009ED5AD /* doctor-listener-notes.app */,
+				DFBE126F2E679987009ED5AD /* doctor-listener-notesTests.xctest */,
+				DFBE12792E679987009ED5AD /* doctor-listener-notesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFBE12592E679985009ED5AD /* doctor-listener-notes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBE12832E679987009ED5AD /* Build configuration list for PBXNativeTarget "doctor-listener-notes" */;
+			buildPhases = (
+				DFBE12562E679985009ED5AD /* Sources */,
+				DFBE12572E679985009ED5AD /* Frameworks */,
+				DFBE12582E679985009ED5AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DFBE125C2E679985009ED5AD /* doctor-listener-notes */,
+			);
+			name = "doctor-listener-notes";
+			packageProductDependencies = (
+			);
+			productName = "doctor-listener-notes";
+			productReference = DFBE125A2E679985009ED5AD /* doctor-listener-notes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFBE126E2E679987009ED5AD /* doctor-listener-notesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBE12862E679987009ED5AD /* Build configuration list for PBXNativeTarget "doctor-listener-notesTests" */;
+			buildPhases = (
+				DFBE126B2E679987009ED5AD /* Sources */,
+				DFBE126C2E679987009ED5AD /* Frameworks */,
+				DFBE126D2E679987009ED5AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFBE12712E679987009ED5AD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DFBE12722E679987009ED5AD /* doctor-listener-notesTests */,
+			);
+			name = "doctor-listener-notesTests";
+			packageProductDependencies = (
+			);
+			productName = "doctor-listener-notesTests";
+			productReference = DFBE126F2E679987009ED5AD /* doctor-listener-notesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFBE12782E679987009ED5AD /* doctor-listener-notesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBE12892E679987009ED5AD /* Build configuration list for PBXNativeTarget "doctor-listener-notesUITests" */;
+			buildPhases = (
+				DFBE12752E679987009ED5AD /* Sources */,
+				DFBE12762E679987009ED5AD /* Frameworks */,
+				DFBE12772E679987009ED5AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFBE127B2E679987009ED5AD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DFBE127C2E679987009ED5AD /* doctor-listener-notesUITests */,
+			);
+			name = "doctor-listener-notesUITests";
+			packageProductDependencies = (
+			);
+			productName = "doctor-listener-notesUITests";
+			productReference = DFBE12792E679987009ED5AD /* doctor-listener-notesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFBE12522E679985009ED5AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DFBE12592E679985009ED5AD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DFBE126E2E679987009ED5AD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DFBE12592E679985009ED5AD;
+					};
+					DFBE12782E679987009ED5AD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DFBE12592E679985009ED5AD;
+					};
+				};
+			};
+			buildConfigurationList = DFBE12552E679985009ED5AD /* Build configuration list for PBXProject "doctor-listener-notes" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFBE12512E679985009ED5AD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DFBE125B2E679985009ED5AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFBE12592E679985009ED5AD /* doctor-listener-notes */,
+				DFBE126E2E679987009ED5AD /* doctor-listener-notesTests */,
+				DFBE12782E679987009ED5AD /* doctor-listener-notesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFBE12582E679985009ED5AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBE126D2E679987009ED5AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBE12772E679987009ED5AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFBE12562E679985009ED5AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBE126B2E679987009ED5AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBE12752E679987009ED5AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFBE12712E679987009ED5AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBE12592E679985009ED5AD /* doctor-listener-notes */;
+			targetProxy = DFBE12702E679987009ED5AD /* PBXContainerItemProxy */;
+		};
+		DFBE127B2E679987009ED5AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBE12592E679985009ED5AD /* doctor-listener-notes */;
+			targetProxy = DFBE127A2E679987009ED5AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DFBE12812E679987009ED5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFBE12822E679987009ED5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFBE12842E679987009ED5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"doctor-listener-notes/Preview Content\"";
+				DEVELOPMENT_TEAM = 8SK6ZSTKX4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app records audio.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zeno-andy.doctor-listener-notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFBE12852E679987009ED5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"doctor-listener-notes/Preview Content\"";
+				DEVELOPMENT_TEAM = 8SK6ZSTKX4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app records audio.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zeno-andy.doctor-listener-notes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFBE12872E679987009ED5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zeno-andy.doctor-listener-notesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doctor-listener-notes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/doctor-listener-notes";
+			};
+			name = Debug;
+		};
+		DFBE12882E679987009ED5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zeno-andy.doctor-listener-notesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doctor-listener-notes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/doctor-listener-notes";
+			};
+			name = Release;
+		};
+		DFBE128A2E679987009ED5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zeno-andy.doctor-listener-notesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "doctor-listener-notes";
+			};
+			name = Debug;
+		};
+		DFBE128B2E679987009ED5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zeno-andy.doctor-listener-notesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "doctor-listener-notes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFBE12552E679985009ED5AD /* Build configuration list for PBXProject "doctor-listener-notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBE12812E679987009ED5AD /* Debug */,
+				DFBE12822E679987009ED5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBE12832E679987009ED5AD /* Build configuration list for PBXNativeTarget "doctor-listener-notes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBE12842E679987009ED5AD /* Debug */,
+				DFBE12852E679987009ED5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBE12862E679987009ED5AD /* Build configuration list for PBXNativeTarget "doctor-listener-notesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBE12872E679987009ED5AD /* Debug */,
+				DFBE12882E679987009ED5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBE12892E679987009ED5AD /* Build configuration list for PBXNativeTarget "doctor-listener-notesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBE128A2E679987009ED5AD /* Debug */,
+				DFBE128B2E679987009ED5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFBE12522E679985009ED5AD /* Project object */;
+}
